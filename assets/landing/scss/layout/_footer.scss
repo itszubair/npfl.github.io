@@ -1,0 +1,10 @@
+.ng-footer {
+    background: $gray-800;
+    color: rgba($color-white,.5);
+    .link-white-50:hover {
+        color: $color-white;
+    }
+}
+.ng-copyright {
+    background: $gray-900;
+}

@@ -1,0 +1,43 @@
+/****** Fonts ******/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,600,600i,700,700i,800,800i&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css');
+
+/****** Vendors ******/
+@import '../css/bootstrap.min.css';
+/*@import '../css/slick.css';
+@import '../css/animate.min.css';*/
+
+/****** SCSS Functions ******/
+@import 'helpers/variables';
+@import 'helpers/mixins';
+
+/****** Components ******/
+@import 'components/home-hero';
+@import 'components/home-stores';
+@import 'components/home-music';
+@import 'components/home-rights';
+@import 'components/home-about';
+@import 'components/home-features';
+
+
+/****** Full Pages ******/
+@import 'pages/home';
+
+
+
+/****** Layouts ******/
+@import 'layout/header';
+@import 'layout/main';
+@import 'layout/footer';
+
+/****** Global Classes ******/
+@import 'base/global';
+@import 'base/typography';
+@import 'base/structure';
+@import 'base/override';
+
+
+
+
+
+

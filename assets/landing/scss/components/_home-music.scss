@@ -1,0 +1,38 @@
+.ng-music {
+    background: url(../images/ng-bg-2.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    color: $color-white;
+    .container {
+        position: relative;
+        z-index: 3;
+    }
+    .ng-music-inn {
+        min-height: 500px;
+    }
+    .ng-music-instruments {
+        position: absolute;
+        left: 0;
+        bottom: -20px;
+        z-index:2;
+        img {
+            width: 320px
+        }
+    }
+}
+@include breakpoint(small){
+    .ng-music {
+        background: darken($color-yellow, 10%);
+        padding-bottom: 200px !important;
+        .ng-music-inn {
+            min-height: auto;
+        }
+        .ng-music-instruments {
+            @include center(x);
+            img {
+                width: 250px;
+            }
+        }
+    }
+}

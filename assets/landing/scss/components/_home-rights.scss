@@ -1,0 +1,10 @@
+.ng-rights {
+    background: url(../images/ng-bg-1.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: $color-white;
+    .ng-rights-inn {
+        min-height: 450px;
+    }
+}
